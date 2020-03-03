@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: UI
+    uniqueID: 3914303073
+    locked: 0
+  - name: TransparentFX
+    uniqueID: 2733508683
+    locked: 0
+  - name: New Layer
+    uniqueID: 2556812135
+    locked: 0
+  - name: New Layer
+    uniqueID: 973826973
+    locked: 0

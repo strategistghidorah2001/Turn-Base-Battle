@@ -359,9 +359,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7956f6c73c63520469d60520866bd6f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: {fileID: 0}
-  levelText: {fileID: 0}
-  hpSlider: {fileID: 0}
+  nameText: {fileID: 1925780945}
+  levelText: {fileID: 1352698706}
+  hpSlider: {fileID: 322118020}
 --- !u!1 &280474136
 GameObject:
   m_ObjectHideFlags: 0
@@ -2147,9 +2147,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7956f6c73c63520469d60520866bd6f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: {fileID: 0}
-  levelText: {fileID: 0}
-  hpSlider: {fileID: 0}
+  nameText: {fileID: 1352981963}
+  levelText: {fileID: 477731317}
+  hpSlider: {fileID: 1551437508}
 --- !u!1 &1516535170
 GameObject:
   m_ObjectHideFlags: 0
@@ -2696,6 +2696,8 @@ MonoBehaviour:
   playerBattleStation: {fileID: 409514350}
   enemyBattleStation: {fileID: 1831384281}
   dialogueText: {fileID: 1415260357}
+  playerHUD: {fileID: 164628634}
+  enemyHUD: {fileID: 1503898555}
   state: 0
 --- !u!4 &2020126868
 Transform:

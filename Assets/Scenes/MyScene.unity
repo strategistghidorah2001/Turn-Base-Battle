@@ -225,7 +225,6 @@ RectTransform:
   m_Children:
   - {fileID: 1415260356}
   - {fileID: 1151934865}
-  - {fileID: 1280035345}
   m_Father: {fileID: 1123347951}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1340,6 +1339,7 @@ Transform:
   m_LocalScale: {x: 7.0124145, y: 7.0124145, z: 7.0124145}
   m_Children:
   - {fileID: 1220255016}
+  - {fileID: 1280035345}
   m_Father: {fileID: 110081700}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1490,7 +1490,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1220255018}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2020126867}
+        m_MethodName: OnAttackButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1220255018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1664,15 +1675,15 @@ RectTransform:
   m_GameObject: {fileID: 1280035344}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.08681369, y: 0.08681369, z: 0.08681369}
+  m_LocalScale: {x: 0.012380001, y: 0.012380001, z: 0.012380001}
   m_Children:
   - {fileID: 1670008193}
-  m_Father: {fileID: 110081700}
-  m_RootOrder: 2
+  m_Father: {fileID: 1151934865}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 33.072086, y: 0.5947125}
+  m_AnchoredPosition: {x: 1.7500496, y: 0.370017}
   m_SizeDelta: {x: 135.33, y: 74.08}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1280035346
@@ -1717,7 +1728,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1280035347}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2020126867}
+        m_MethodName: OnHealButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1280035347
 MonoBehaviour:
   m_ObjectHideFlags: 0

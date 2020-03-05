@@ -128,4 +128,4 @@ MonoBehaviour:
   unitLevel: 999
   damage: 10
   maxHP: 25
-  currentHP: 20
+  currentHP: 15
